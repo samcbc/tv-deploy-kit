@@ -1,0 +1,7 @@
+# 批次 4：语音助手 / OTA 更新 / 投屏附属组件
+# 按你的选择：远场语音停用、系统更新停用、保留投屏（com.coocaa.miracast 不动）。
+
+com.skyworth.aimanager      # 远场麦克风 AI 服务（语音助手本体已停用）
+com.coocaa.os.upgrade       # 系统 OTA 更新，防止升级把广告和预装推送回来
+com.coocaa.skycast.tool     # 投屏组件更新器；投屏本身仍可用
+swaiotos.channel.iot        # 小维互联（跨设备互联通道）

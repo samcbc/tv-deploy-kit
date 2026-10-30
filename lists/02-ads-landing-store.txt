@@ -1,0 +1,10 @@
+# 批次 2：广告落地页 / 屏保广告 / 消息推送 / 账号支付 / 酷开主题包
+# 这批次会动到几个有界面的包，跑完立刻截图确认桌面和遥控器正常。
+
+com.tianci.de                          # V10.4.3，内含 com.coocaa.adsdk.landing 广告落地页
+com.coocaa.screensaver                 # 带 com.coocaa.adsdk 的广告屏保
+com.coocaa.messageprovider             # 系统消息盒子，推通知与促销
+com.coocaa.sky.ccapi                   # 酷开支付中心（会断酷开会员购买）
+com.tianci.user                        # 酷开账号中心（会断酷开账号登录）
+com.coocaa.theme_package_ccos_nine     # 酷开主题包，当贝桌面用不到
+com.skyworth.skymarket                 # 店面演示 / 商城展示

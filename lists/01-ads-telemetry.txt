@@ -1,0 +1,16 @@
+# Skyworth 7S77_K30 (sky848_9s60) Coocaa OS Android 8.0 / OPR5.170623.014 / 022.008.210
+# 批次 1：广告 / 遥测 / 静默安装（纯后台，停掉不影响任何界面功能）
+# 全部为 DISABLE（pm disable-user --user 0），不是卸载；用 tools/restore.sh 可一键恢复。
+
+# 广告与遥测
+com.tianci.ad                  # 开机广告（persist.sys.ad.startboot）
+com.tianci.push                # 推送服务，内含神策数据统计 SDK
+com.coocaa.sysreport           # 开机/亮屏/装应用 使用行为上报
+com.baidu.oases                # 百度 OASES SDK，开机自启
+com.skyworthdigital.stb.dataprovider  # 开机广播上报数据提供方
+
+# 静默装应用（偷偷给你装推广 App 的元凶）
+com.tianci.autoinstaller
+
+# 引导与演示
+com.coocaa.guide               # 开机/升级引导页，带推送接收器

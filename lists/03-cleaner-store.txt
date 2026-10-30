@@ -1,0 +1,8 @@
+# 批次 3：清理器 / 后台服务 / 酷开商店 / 预装小件
+
+com.coocaa.tvmanager        # “清理加速”，含百度电视卫士
+com.coocaa.os.manager       # 后台杀进程管理（KillerManagementActivity）
+com.tianci.appstore         # 酷开应用圈（已装当贝市场，按你的选择停用）
+com.coocaa.app_browser      # 酷开应用浏览器
+com.loostone.tuning         # 麦克风调音，开机自启
+com.coocaa.bgprocess        # 后台常驻服务（非系统应用，1.0）
